@@ -1,13 +1,9 @@
-const reverseString = function(toReverse) {
-    
-    let a = [];
-    a.push(toReverse;)
-    //let stringArray = toReverse.lenght;
-    // for(i=0; i <= stringArray ; i++){
-    //     return i;
-    // }
-    return a[0].lenght;
+const reverseString = function(input) {
+        processedText = input.split("").reverse().join("");
+        //return processedText;
+        return processedText;
 };
- console.log(reverseString("Caco"));
+
+console.log(reverseString("Mañana mañana"));
 // Do not edit below this line
 module.exports = reverseString;
